@@ -1,6 +1,6 @@
 var katzDeliLine = []
 function takeANumber(katzDeliLine,name) {
-for(var line = 0;line > 0 ; line++) {
+for(var line = 1;line > 0 ; line++) {
  katzDeliLine.push(name);
 return "Welcome, " +name + ". You are number " +line+1 + " in line."
 }
