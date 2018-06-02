@@ -11,7 +11,7 @@ function nowServing(katzDeliLine) {
   }
   return "Currently serving " +line.shift() + "."
  
-}
+};
 
 function currentLine(katzDeliLine) {
   var current = [];
