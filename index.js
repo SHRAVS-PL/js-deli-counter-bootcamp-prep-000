@@ -24,11 +24,11 @@ function currentLine(katzDeliLine) {
  else {
  for (var i=0; i< katzDeliLine.length ; i++) {
    if(i===katzDeliLine.length){
-   current.push(i+1 + ". " +katzDeliLine[i] +", ");
+   current.push(i+1 + ". " +katzDeliLine[i] +" ");
    }
    else
    
-      current.push(i+1 + ". " +katzDeliLine[i] +" ");
+      current.push(i+1 + ". " +katzDeliLine[i] +", ");
  }
     return "The line is currently: " +current;
 
