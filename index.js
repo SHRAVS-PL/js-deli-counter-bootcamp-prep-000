@@ -7,12 +7,12 @@ return "Welcome, " +name + ". You are number " + line + " in line."
 }
 
 function nowServing(katzDeliLine) {
-  
-  var str = katzDeliLine.slice(0,1);
-  return "Currently serving " + str + "."
-  if(katzDeliLine.length === 0) {
+   if(katzDeliLine.length === 0) {
     return "There is nobody waiting to be served!";
   }
+  var str = katzDeliLine.slice(0,1);
+  return "Currently serving " + str + "."
+ 
 }
 
 function currentLine(katzDeliLine) {
